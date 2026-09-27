@@ -21,6 +21,8 @@ import {
   CodeXml,
   Smartphone,
   Zap,
+  Megaphone,
+  Target,
 } from "lucide-react";
 
 /* =========================
@@ -133,6 +135,22 @@ const skillGroups = [
   },
 
   {
+    title: "Digital Marketing & Ads",
+    description: "Managing digital advertising and campaign platforms.",
+    icon: Megaphone,
+    skills: [
+      {
+        name: "Google Ads",
+        icon: Target,
+      },
+      {
+        name: "Meta Ads",
+        icon: Megaphone,
+      },
+    ],
+  },
+
+  {
     title: "Tools & Development",
     description: "Tools I use to build and manage projects.",
     icon: Wrench,
@@ -198,9 +216,9 @@ export default function Skills() {
           </h2>
 
           <p className="mt-5 max-w-2xl leading-7 text-slate-400">
-            A combination of analytical, programming, database and
-            visualization skills used to work with data and build
-            practical solutions.
+            A combination of analytical, programming, database,
+            visualization and digital marketing skills used to work
+            with data and build practical solutions.
           </p>
         </motion.div>
 

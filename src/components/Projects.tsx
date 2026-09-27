@@ -6,11 +6,12 @@ import {
   BrainCircuit,
   FileSpreadsheet,
   Building2,
+  Sparkles,
 } from "lucide-react";
 
 const projects = [
   {
-    title: "Rental Property Management & Discovery App",
+    title: "RomFe App",
     category: "Full Stack Application",
     description:
       "A rental platform with separate flows for property listing and property discovery, including location-based search, multi-image uploads, real-time data sync and in-app communication.",
@@ -24,6 +25,25 @@ const projects = [
     icon: Building2,
     gradient: "from-cyan-500/20 to-blue-500/10",
     link: null,
+  },
+
+  {
+    title: "ProductPulse AI",
+    category: "AI & Data Analytics",
+    description:
+      "A multi-source customer analytics platform that ingests data from MySQL, MongoDB or Excel, performs cleaning and business analysis, applies machine learning for churn prediction and customer segmentation, generates AI-based business insights, and prepares Power BI-ready enriched datasets.",
+    technologies: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "MySQL",
+      "MongoDB",
+      "Power BI",
+    ],
+    icon: Sparkles,
+    gradient: "from-cyan-500/20 to-violet-500/10",
+    link: "https://github.com/himanshu-dev16/ProductPulse-AI",
   },
 
   {
@@ -132,7 +152,7 @@ export default function Projects() {
 
           <p className="mt-5 max-w-2xl leading-7 text-slate-400">
             A collection of projects across data analytics, business
-            intelligence, automation, NLP and application development.
+            intelligence, automation, NLP, AI and application development.
           </p>
         </motion.div>
 
